@@ -2,13 +2,12 @@
 
 A session-based analytics framework built on the [RetailRocket e-commerce dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset).
 
-Transforms a raw event log (views, add-to-carts, transactions) into a **session feature store** — one row per session — and uses that store as the foundation for intelligence modules.
 
 ---
 
 ## Module 1 — Sessionisation & Feature Engineering
 
-Builds the session feature store from the raw event log.
+Transforms a raw event log (views, add-to-carts, transactions) into a **session feature store** — one row per session.
 
 ### Notebooks
 
