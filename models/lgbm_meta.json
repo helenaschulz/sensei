@@ -1,0 +1,23 @@
+{
+  "features": [
+    "n_addtocart",
+    "duration_sec",
+    "view_to_cart_ratio",
+    "n_views",
+    "n_revisited_items",
+    "n_items",
+    "is_first_session",
+    "hour_of_day",
+    "behavioral_state",
+    "last_event_is_cart"
+  ],
+  "categorical": [
+    "behavioral_state"
+  ],
+  "best_iteration": 177,
+  "threshold_f1": 0.9862196493500738,
+  "pr_auc_test": 0.822552731753494,
+  "cv_mean": 0.8131892844708689,
+  "cv_std": 0.004258371965918302,
+  "scale_pos_weight": 122
+}
